@@ -64,7 +64,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "harshini794"/my-app"
+        IMAGE_NAME = "harshini794/my-app"
         REGISTRY = "docker.io"
         APP_DIR = "/home/vboxuser/jenkins"
         DOCKER_USER = "harshini794""          // Replace with your Docker Hub username
